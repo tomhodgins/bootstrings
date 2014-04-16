@@ -1,5 +1,6 @@
-**Bootstrings** - querystrings for Bootstrap
-=========
+# **Bootstrings** - querystrings for Bootstrap
+
+#### Chrome Extension: [Install Bootstrings](https://chrome.google.com/webstore/detail/bootstrings/bafdolhkidkdhgfbcfkmggojbipofdpb)
 
 ## Table of contents
 
@@ -22,7 +23,7 @@ You can install Bootstings as a Chrome extension, which will allow you to use qu
 
 #### Developers and Site Owners: Add Bootstrings to your Bootstrap-powered website for every visitor
 
-At the heart of Bootstrings is a simple set of JavaScript rules that interpret any query strings you add to the URL when the page loads. If you add this to your site, you will be able to make use of these query strings in links that all visitors cna access, even if they don't have the Bootstring extension installed (and in all browsers, not just Chrome).
+At the heart of Bootstrings is a simple set of JavaScript rules that interpret any query strings you add to the URL when the page loads. If you add this to your site, you will be able to make use of these query strings in links that all visitors can access, even if they don't have the Bootstring extension installed (and in all browsers, not just Chrome).
 
 
 ## How to Install Bootstrings
@@ -31,7 +32,7 @@ At the heart of Bootstrings is a simple set of JavaScript rules that interpret a
 
 #### 1) Search for Bootstrings in the Chrome Web Store
 
-Visit the [Chrome Web Store](https://chrome.google.com/webstore/category/extensions) and search for 'Bootstrings'
+Visit the [Chrome Web Store](https://chrome.google.com/webstore/category/extensions) and search for '[Bootstrings](https://chrome.google.com/webstore/detail/bootstrings/bafdolhkidkdhgfbcfkmggojbipofdpb)'
 
 #### 2) Install the Bootstrings Extension
 
@@ -51,9 +52,11 @@ Visit the [Github Project](https://github.com/tomhodgins/bootstrings) for this e
 
 Add `bootstrings.js` to your website with something simliar to the code below, and make sure to load this after [jQuery](http://jquery.com) and [Bootstrap](http://getbootstrap.com)'s JavaScript is already loaded.
 
-    <script src="path/to/bootstrings.js" type="text/js"></script>
+    <script src="path/to/bootstrings.js" type="text/javascript"></script>
 
 #### 3) Try it out
+
+Add one of the querystrings below to the end of the URLs of one of your web pages that makes use of the corresponding Bootstrap component. If you have a page at `http://website.com/example` and it had a modal with an `id` of `login`, you could verify that Bootstrings was installed and working for all users by testing a URL like `http://website.com/example?modal=login` in Firefox, Safari, or any other non-Chrome browser.
 
 
 ## How to Use Bootstrings
@@ -93,7 +96,7 @@ To display a tab after page load, we'll want to append a query string like this 
 This would open a tab with an ID of `demo`. If the tab is launched through a link on the page you may be able to discover the ID of the tooltip you wish to display by hovering over the link, otherwise you may have to View Source, or Inspect Element to find the ID you want.
 
 
-# Licenses
+## Licenses
 
 `bootstrap.min.js` provided from the [Bootstrap](https://github.com/twbs/bootstrap) project and is copyright 2011-2014 Twitter, Inc. Code released under the MIT license.
 
