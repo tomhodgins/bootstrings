@@ -1,4 +1,4 @@
-# **Bootstrings** - querystrings for Bootstrap
+## **Bootstrings** - querystrings for Bootstrap
 
 #### Chrome Extension: [Install Bootstrings](https://chrome.google.com/webstore/detail/bootstrings/bafdolhkidkdhgfbcfkmggojbipofdpb)
 
