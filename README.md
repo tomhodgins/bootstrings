@@ -1,4 +1,4 @@
-**Bootstrings** - querystrings for Bootstrap sites
+**Bootstrings** - querystrings for Bootstrap
 =========
 
 ## Table of contents
